@@ -111,8 +111,8 @@ const setTimeoutFucntion = () => {
     setTimeout(() => {
       mdown.style.backgroundColor = "white";
       mup.style.backgroundColor = "white";
-      mdUp = false;
-      mdDown = false;
+      mu = false;
+      md = false;
     }, 10000);
   };
   
