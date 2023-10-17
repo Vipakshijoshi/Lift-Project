@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+main{
+    height:100vh;
+    display: flex;
+
+}
+.secleft{
+    flex:40;
+}
+.secright{
+    flex:70;
+}
+.lboxes{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.left {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 33vw;
+    align-items: center;
+  }
+  button {
+    cursor: pointer;
+    height: 45px;
+    width: 40px;
+    
+  }
+  .lboxes{
+    height: 33vh;
+   
+    justify-content: center;
+  }
+  img{
+    height: 35px;
+  }
+
+  .rightboxes {
+    height: 33vh;
+    width: 33vw;
+    background-color: gray;
+    border-color: black;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  }
+  .level{
+    border: 2px solid black;
+     width: 33%;
+     height: 10%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  }
+  .liftbox{
+    position: absolute;
+    background:white;
+    height: 27vh;
+    width: 32vw;
+    border: 2px solid black;
+    transition: 5s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .le{
+   background-color: bisque;
+   padding: 2.5%;
+   border: 2px solid transparent;
+   border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width:505px){
+    .level{
+        font-size: 12px;
+    }
+}
